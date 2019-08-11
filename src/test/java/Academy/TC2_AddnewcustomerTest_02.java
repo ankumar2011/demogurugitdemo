@@ -11,6 +11,7 @@ public class TC2_AddnewcustomerTest_02 extends Base{
 	
 	@Test
 	public void Addcustomer () throws Exception {
+		System.out.println("This is the Second Testcase");
 		driver.get(prop.getProperty("url"));
 		driver.manage().window().maximize();
 		Loginpagedemo lp=new Loginpagedemo (driver);
