@@ -12,6 +12,8 @@ public class TC1_LoginpageTest_01 extends Base {
 
 	@Test
 	public void Logintest () throws IOException, InterruptedException {
+		System.out.println("This is the First Testcase");
+		System.out.println("Change from GitStuff");
 		driver.get(prop.getProperty("url"));
 		driver.manage().window().maximize();
 		Loginpagedemo lpd=new Loginpagedemo (driver);
