@@ -12,6 +12,7 @@ public class TC2_AddnewcustomerTest_02 extends Base{
 	@Test
 	public void Addcustomer () throws Exception {
 		System.out.println("Change after the creating new branch from git demo");
+		System.out.println("Change after the creating new branch from git demo");
 		System.out.println("This is the Second Testcase");
 		System.out.println("Change from GitStuff");
 		System.out.println("Changes from demogurugitdemo");
