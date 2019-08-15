@@ -12,6 +12,7 @@ public class TC1_LoginpageTest_01 extends Base {
 
 	@Test
 	public void Logintest () throws IOException, InterruptedException {
+		System.out.println("Change after the creating new branch from git demo");
 		System.out.println("This is the First Testcase");
 		System.out.println("Change from GitStuff");
 		driver.get(prop.getProperty("url"));
